@@ -1,0 +1,15 @@
+{
+  "name": "ht-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hattrick 战斗与故事：资料库 + 贤者 + 编年史",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node server.mjs",
+    "serve": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
